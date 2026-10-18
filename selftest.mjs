@@ -72,4 +72,14 @@ assert.equal(rows[0].repo, 'PeetPedro/ultrawhale-dogfood');
 assert.equal(rows[0].source, '8b-is/zoneInn');
 assert.ok(rows[0].frame_golden.startsWith('0x'));
 
-console.log('✓ zoneinn.vaked.dev selftest passed (5/5 suites, golden hashes verified)');
+// 6. Favourite Musics Crate on radio.vaked.dev (14 tracks, 432 Hz Verdi tuning)
+assert.equal(core.FAVOURITE_MUSICS.length, 14);
+assert.equal(core.midiToHz432(69), 432.0);
+assert.equal(core.findFavourite('mahakala').slug, 'mahakala');
+assert.equal(core.findFavourite('innerbloom').slug, 'innerbloom');
+assert.equal(core.findFavourite('faded').slug, 'faded');
+assert.equal(core.findFavourite('Billie').slug, 'everything-i-wanted');
+assert.equal(core.findFavourite('Lorn').slug, 'anvil');
+
+console.log('✓ zoneinn.vaked.dev selftest passed (6/6 suites, golden hashes & 14 Favourite Musics verified)');
+

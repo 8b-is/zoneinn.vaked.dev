@@ -5,7 +5,7 @@ Interactive web studio & landing for **[zoneInn](https://github.com/8b-is/zoneIn
 ## Live Capabilities
 
 - **Web Radio Player**:
-  - `radio.vaked.dev` — 1-bit Quantshuffle procedural synth + Beethoven / Ode to Joy / Für Elise / Pachelbel ternary canons.
+  - `radio.vaked.dev` — **14 Favourite Musics Crate** (Mahakala, Innerbloom, Faded, Billie Eilish *everything i wanted*, Lorn *Anvil*, Massano *The Feeling*, ARTBAT × Benassi *Love Is Gonna Save Us*, P!NK *Time After Time*, ALEXANDRA DRA <3 *All My Favorite Colors*, ultraLoveGod *Space Floating*, *The Answer to Oblivion*, Øostil & Massano *Drown*, U-Recken *Sovereign Frequencies*, and *Quantshuffle Ternary Canon*) with both **320 kbps MP3 Masters** (`/assets/favourites/*.mp3`) and **432 Hz Verdi Procedural Synthesis**.
   - `music.vaked.dev` — 432 Hz Verdi tuning (`D#m → B → F# → C#`) with 528 Hz Star and 288 Hz Pillar harmonics.
   - `nand.vaked.dev` — 5-stage cross-coupled **Ultrawhale NAND Ring Oscillator** (`{−1, 0, +1}` + Kleene strong-3 `min(a,b)`).
   - `mirror.vaked.dev` — Mirror in F tintinnabuli overtones (`F2 = 87.31 Hz`).
